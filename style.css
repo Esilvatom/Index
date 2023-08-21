@@ -1,0 +1,161 @@
+@charset "UTF-8"
+
+   {
+    font-family: arial;
+    /*height: 100%;*/ 
+    margin: 0;
+    padding: 0;
+
+}
+
+    
+}
+body {
+  /* background-image: linear-gradient( to right, #a3b9f5,#7698f5); (degrade de azul)*/
+    background-color: white;
+    /* font-family: Arial, Helvetica, sans-serif; */
+ 
+}
+  
+/* Paleta de cores por força de tonalidade do mais claro ao masis forte
+1 - #F2F2F2
+2 - #B3CFF2
+3 - #035AA6 
+4 - #0455BF
+5 - #034AA6
+*/
+
+main {
+background-color: white; /* cor de fundo */
+width: 800px; /* largura do main com o conteudo */
+padding: 150px; /* a distancia do conteudo em relação a borda do main */
+margin: auto; /* centraliza o conteudo automaticamente no meio da pagina */
+border-radius: 10px; /* arredondamento das bordas do conteudo da main */ 
+/*box-shadow: 2px 2px 20px #733702; /* sombra 1º parâmetro sombra para direita, 2º parâmetrosombra para baixo, 3º parâmetro sombra espalhada em todos lados e ultimo é cor */
+
+}
+
+p {
+    text-align: justify;
+    font-size: 18px;
+    text-indent: 25px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 2px #733702;
+    /* box-shadow: 2px 2px 5px black; */
+
+}
+
+h2 {
+    /* background-color: #3882f2; */
+     color: black; /* #A64B17;*/
+
+}
+
+/* ----------------------------------------- Cabeçalho ---------------------------- */
+
+header {
+    background-color: #034AA6;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+
+/* ----------------------------------------- lista de menu ---------------------------- */
+
+
+ul {
+    margin: 0;
+    padding: 0;
+    background-color: #0455BF;
+    text-align: center;
+    font-size: 20px; 
+    width: 100%;
+    border: 0.5px solid white;
+}
+
+
+
+li {
+    list-style: none;   
+    margin: 20px;
+    display: inline;
+    /*border: 0.5px solid white;*/
+    
+   
+}
+
+li, a {
+    color: #F2F2F2;
+    background-color: #0455BF;
+    /* border-radius: 5px; */  
+    text-decoration: none;
+    
+}
+
+li, a:houver {
+    background: white;
+    color: #000;
+    border-color: #000;
+}
+
+
+
+
+/* ----------------------------------- Rodapé ------------------------------------------ */
+footer {
+    background: #034AA6;
+    color: white; 
+    padding: 20px;
+    width: 97%;
+    position: relative;
+    left: 0;
+    bottom: 0;
+}
+
+/* ------------------------formatação das listas dos dos conteudos da pagina --------------------------------- */
+
+ul.ordem {
+        background: white;    
+        
+}
+
+li.lista {
+        background: white;
+        display: flex;
+}
+
+
+li, a.basico {
+    color: black;
+    background-color: white;
+    /* border-radius: 5px; */  
+    text-decoration: none;
+}
+
+/* ----------------------------------------- Tabela - da estrutura da equipe  ---------------------------- */
+
+table {
+    border: ;
+    
+}
+
+td {
+    border: 1px solid;
+    width: 500px;
+    height: 100px;
+}
+
+td.foto {
+    
+    width: 200px;
+    
+}
+
